@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container h1 {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 80px;
+  text-align: center;
+  padding: 40px 0 30px;
+}
+
+.container img {
+  border-radius: 50px;
+  width: 400px;
+}
+
+.container section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.container article {
+  width: 800px;
+}
+
+.container h3 {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding: 25px;
+}
+
+.container p {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.container p a {
+  color: #2fc18c;
+}
+
+.container p a:hover {
+  text-decoration: none;
+}

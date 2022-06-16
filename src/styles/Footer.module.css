@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+}
+
+.container a {
+    margin: 40px;
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .container a:hover {
+    text-decoration: none;
+  }
+
+  .container hr {
+    width: 100%;  
+  }

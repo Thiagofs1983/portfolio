@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.container h1 {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 80px;
+  text-align: center;
+  padding: 50px;
+}
+
+.container p {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px;
+}
+
+.container p a {
+  color: #2fc18c;
+}
+
+.container p a:hover {
+  text-decoration: none;
+}
+
+.container img {
+  border-radius: 40%;
+  width: 100px;
+  text-align: center;
+}
+
+.container nav {
+  flex-direction: row;
+}
+
+.container nav a {
+  margin: 10px;
+  font-size: 35px;
+}
+
+.container nav a:nth-child(2) {
+  color: black;
+}
