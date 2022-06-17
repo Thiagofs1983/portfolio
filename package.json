@@ -26,6 +26,10 @@
       "react-app/jest"
     ]
   },
+  "roteiros": {
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -37,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages-deploy": "^0.5.1"
   }
 }
