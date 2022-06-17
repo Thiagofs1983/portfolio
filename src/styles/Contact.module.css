@@ -19,7 +19,7 @@
   .container form {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 70%;
   }
 
   .container label {
@@ -54,4 +54,39 @@
   
   .container button:active {
     background-color: white;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .container h1 {
+      font-size: 70px;
+      padding: 20px 0 10px;
+    }
+
+    .container label {
+      font-size: 25px;
+    }
+  
+    .container input {
+      font-size: 15px;
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+  
+    .container textarea {
+      font-size: 15px;
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+
+    .container button {
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      height: auto;
+    }
   }

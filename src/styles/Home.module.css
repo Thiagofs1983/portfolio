@@ -13,13 +13,21 @@
   font-weight: 600;
   font-size: 80px;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
+}
+
+.container h3 {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
 }
 
 .container p {
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
-  padding: 40px;
+  padding: 15px;
 }
 
 .container p a {
@@ -34,17 +42,171 @@
   border-radius: 40%;
   width: 100px;
   text-align: center;
+  margin: 5px;
+}
+
+.container figure {
+  margin: 0;
+  text-align: center;
+}
+
+.container figure img {
+  width: 70px;
+  border-radius: 10px;
+  margin: 0 10px;
 }
 
 .container nav {
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .container nav a {
-  margin: 10px;
+  margin: 0 10px;
   font-size: 35px;
 }
 
 .container nav a:nth-child(2) {
   color: black;
+}
+
+.container nav a:nth-child(3) {
+  color: #34af23;
+}
+
+.container span {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container h1 {
+    font-weight: 600;
+    font-size: 70px;
+    padding: 20px;
+  }
+
+  .container h3 {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .container p {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .container img {
+    width: 70px;
+  }
+
+  .container figure img {
+    width: 50px;
+    margin: 5px 10px;
+  }
+
+  .container nav a {
+    margin: 0 10px;
+    font-size: 25px;
+  }
+
+  .container span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .container h1 {
+    font-size: 75px;
+    padding: 30px;
+  }
+  
+  .container h3 {
+    font-size: 55px;
+    padding: 35px;
+    margin: 30px 0;
+  }
+  
+  .container p {
+    font-size: 40px;
+    padding: 25px;
+  }
+
+  .container figure {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .container figure img {
+    width: 70px;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+
+  .container img {
+    border-radius: 40%;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container h1 {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .container h3 {
+    font-size: 55px;
+    padding: 25px;
+    margin: 10px 0;
+  }
+
+  .container figure img {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    height: auto;
+    width: 100wh;
+  }
+
+  .container h1 {
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .container p {
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .container h3 {
+    font-size: 40px;
+    padding: 15px;
+  }
+
+  .container figure {
+    width: 350px;
+    margin: 15px auto;
+  }
+
+  .container figure img {
+    width: 60px;
+  }
+
+  .container img {
+    width: 80px;
+    margin: 15px;
+  }
 }

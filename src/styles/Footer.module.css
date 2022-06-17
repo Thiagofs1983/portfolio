@@ -8,10 +8,22 @@
     color: var(--text-color);
   }
   
-  .container a:hover {
-    text-decoration: none;
+.container a:hover {
+  text-decoration: none;
+}
+
+.container hr {
+  width: 100%;  
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .container hr {
-    width: 100%;  
+  .container a {
+    margin: 10px 40px;
   }
+}
