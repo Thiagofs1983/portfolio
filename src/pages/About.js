@@ -10,7 +10,7 @@ function About() {
       <section>
         <img src={familia} alt="Foto da familia do Thiago" />
         <article>
-          <h3>Bem vindo!!!</h3>
+          <h3>Bem vindo(a)!!!</h3>
           <p>
             Sou natural da cidade de Belo Horizonte - MG, primeiro filho de uma família de 3 irmãos.
           </p>
