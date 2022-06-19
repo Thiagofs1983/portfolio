@@ -30,12 +30,14 @@
     font-size: 1em;
     padding: 10px;
     margin-bottom: 30px;
+    border: none;
   }
 
   .container textarea {
     font-size: 1em;
     padding: 10px;
     margin-bottom: 30px;
+    border: none;
   }
 
   .container button {
