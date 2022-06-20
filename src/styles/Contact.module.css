@@ -1,11 +1,17 @@
 .container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 100vh;
     margin: 0 auto;
-    width: 90%;
+    width: 100vw;
+  }
+
+  .container div {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
   }
   
   .container h1 {
@@ -23,13 +29,13 @@
   }
 
   .container label {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .container input {
     font-size: 1em;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 8px;
+    margin-bottom: 20px;
     border: none;
   }
 
@@ -62,6 +68,10 @@
     .container h1 {
       padding: 20px 0 10px;
     }
+
+    .container label {
+      font-size: 1.1em;
+    }
   
     .container input {
       margin-bottom: 15px;
@@ -78,8 +88,8 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
-    .container {
+  @media screen and (max-width: 912px) {
+    .container div {
       width: 100%;
       height: auto;
     }

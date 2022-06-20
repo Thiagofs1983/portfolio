@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from '../styles/Footer.module.css';
+import styles from '../styles/Aside.module.css';
 
-function Footer() {
+function Aside() {
   return (
-    <footer className={ styles.container }>
+    <aside className={ styles.container }>
       <Link to="/">Página Inicial</Link>
       <Link to="/about">Sobre</Link>
       <Link to="/projects">Projetos</Link>
       <Link to="/contact">Contato</Link>
-    </footer>
+    </aside>
   )
 }
 
-export default Footer;
+export default Aside;

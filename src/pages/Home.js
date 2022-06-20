@@ -11,22 +11,25 @@ import reactRouter from '../images/react-router.png';
 import jest from '../images/jest.png';
 import styledComponent from '../images/styled-components.png';
 import css from '../images/css.jpg';
+import Aside from '../components/Aside';
 
 function Home() {
   return (
     <main className={ styles.container }>
-      <h1>Olá, eu sou o Thiago Fonseca</h1>
-      <section>
-        <p>
-          Estudante de Desenvolvimento Web Fullstack na <a
-            href="https://www.betrybe.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Trybe
-          </a>, em transição de carreira, após 17 anos no setor automotivo.
-        </p>
-        <div>
+      <Aside />
+      <div>
+        <h1>Olá, eu sou o Thiago Fonseca</h1>
+        <section>
+          <p>
+            Estudante de Desenvolvimento Web Fullstack na <a
+              href="https://www.betrybe.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Trybe
+            </a>, em transição de carreira, após 17 anos no setor automotivo.
+          </p>
+          
           <h3>Skills</h3>
           <figure>
             <img src={JavaScript} alt="Logo JavaScript" />
@@ -38,34 +41,35 @@ function Home() {
             <img src={css} alt="Logo CSS" />
             <img src={html5} alt="Logo HTML5" />
           </figure>
-        </div>
-      </section>
-      <img src={Thiago} alt="Foto do Thiago" />
-      <nav>
-        <a 
-          href="https://www.linkedin.com/in/fsthiago/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          href="https://github.com/Thiagofs1983"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <BsGithub />
-        </a>
-        <a
-          href="https://wa.me/5581981140390"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <BsWhatsapp />
-        </a>
-        <span>(81)98114-0390</span>
-      </nav>
-      <Footer />
+          
+        </section>
+        <img src={Thiago} alt="Foto do Thiago" />
+        <nav>
+          <a 
+            href="https://www.linkedin.com/in/fsthiago/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            href="https://github.com/Thiagofs1983"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <BsGithub />
+          </a>
+          <a
+            href="https://wa.me/5581981140390"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <BsWhatsapp />
+          </a>
+          <span>(81)98114-0390</span>
+        </nav>
+        <Footer />
+      </div>
     </main>
   )
 }

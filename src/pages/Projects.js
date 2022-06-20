@@ -5,6 +5,7 @@ import styles from '../styles/Projects.module.css'
 import TrybeWalet from '../images/TrybeWalet.png';
 import StarWars from '../images/StarWars.png';
 import Trivia from '../images/Trivia.png';
+import Aside from '../components/Aside';
 
 function Projects() {
   const [index, setIndex] = useState(0)
@@ -46,42 +47,45 @@ function Projects() {
 
   return (
     <main className={ styles.container }>
-      <h1>Projetos</h1>
+      <Aside />
       <div>
-        <button
-          type="button"
-          onClick={ handleClickPrevious }
-        >
-          <GrPrevious />
-        </button>
-        <section>
-          <h3>{projects[index].nameProject}</h3>
-          <img src={projects[index].image} alt={projects[index].alt} />
-          <nav>
-            <a 
-              href={projects[index].gitHub}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button type="button">{projects[index].buttonGitHub}</button>
-            </a>
-            <a 
-              href={projects[index].deploy}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button type="button">{projects[index].buttonDeploy}</button>
-            </a>
-          </nav>
-        </section>
-        <button
-          type="button"
-          onClick={ handleClickNext }
-        >
-          <GrNext />
-        </button>
+        <h1>Projetos</h1>
+        <div>
+          <button
+            type="button"
+            onClick={ handleClickPrevious }
+          >
+            <GrPrevious />
+          </button>
+          <section>
+            <h3>{projects[index].nameProject}</h3>
+            <img src={projects[index].image} alt={projects[index].alt} />
+            <nav>
+              <a 
+                href={projects[index].gitHub}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button type="button">{projects[index].buttonGitHub}</button>
+              </a>
+              <a 
+                href={projects[index].deploy}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button type="button">{projects[index].buttonDeploy}</button>
+              </a>
+            </nav>
+          </section>
+          <button
+            type="button"
+            onClick={ handleClickNext }
+          >
+            <GrNext />
+          </button>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </main>
   )
 }
