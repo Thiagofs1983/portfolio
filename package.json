@@ -44,7 +44,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Thiagofs1983.github.io/portfolio-thiago",
+  "homepage": "https://Thiagofs1983.github.io/portfolio",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "gh-pages-deploy": "^0.5.1"
