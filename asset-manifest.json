@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-thiago-fonseca/static/css/main.13fb2c9a.css",
+    "main.js": "/portfolio-thiago-fonseca/static/js/main.f24736ea.js",
+    "static/media/familia.png": "/portfolio-thiago-fonseca/static/media/familia.8d3a71139e187c2e4929.png",
+    "static/media/Thiago.png": "/portfolio-thiago-fonseca/static/media/Thiago.f5868fbabb01aa5833e1.png",
+    "static/media/StarWars.png": "/portfolio-thiago-fonseca/static/media/StarWars.50695f5602673c771429.png",
+    "static/media/TrybeWalet.png": "/portfolio-thiago-fonseca/static/media/TrybeWalet.041dd134dacc00de83b4.png",
+    "static/media/css.jpg": "/portfolio-thiago-fonseca/static/media/css.ac4c52471f51dc98fd68.jpg",
+    "static/media/react.png": "/portfolio-thiago-fonseca/static/media/react.283bf42c605cfc49cf49.png",
+    "static/media/Trivia.png": "/portfolio-thiago-fonseca/static/media/Trivia.8a40b11ead1bbdbf8ef8.png",
+    "static/media/react-router.png": "/portfolio-thiago-fonseca/static/media/react-router.66f9b0327cffc1f939e2.png",
+    "static/media/redux.png": "/portfolio-thiago-fonseca/static/media/redux.296b9306ae3e4de348c6.png",
+    "static/media/jest.png": "/portfolio-thiago-fonseca/static/media/jest.809768de8350fa5f6a21.png",
+    "index.html": "/portfolio-thiago-fonseca/index.html",
+    "main.13fb2c9a.css.map": "/portfolio-thiago-fonseca/static/css/main.13fb2c9a.css.map",
+    "main.f24736ea.js.map": "/portfolio-thiago-fonseca/static/js/main.f24736ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13fb2c9a.css",
+    "static/js/main.f24736ea.js"
+  ]
+}
