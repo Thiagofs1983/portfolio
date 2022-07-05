@@ -1,0 +1,36 @@
+@media screen and (min-width: 913px) {
+  .container {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 912px) {
+  .container {
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .container a {
+    color: var(--text-color);
+    font-size: 3em;
+    margin-top: 20px;
+  }
+
+  .container hr {
+    width: 100%;  
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

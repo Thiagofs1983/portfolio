@@ -1,17 +1,11 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Routes from './Routes';
-import Projects from './pages/Projects';
-import About from './pages/About';
-import Contact from './pages/Contact';
 
 ReactDOM.render(
-  <Routes>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
-    <Projects />
-    <About />
-    <Contact />
-  </Routes>, 
+  </BrowserRouter>, 
 document.getElementById('root')
 );

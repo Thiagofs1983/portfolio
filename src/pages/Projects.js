@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { GrNext, GrPrevious } from 'react-icons/gr';
-import Footer from '../components/Footer';
 import styles from '../styles/Projects.module.css'
 import TrybeWalet from '../images/TrybeWalet.png';
 import StarWars from '../images/StarWars.png';
 import Trivia from '../images/Trivia.png';
-import Aside from '../components/Aside';
+import Footer from '../components/Footer';
+import '../styles/homes.css';
 
 function Projects() {
   const [index, setIndex] = useState(0)
@@ -47,8 +47,7 @@ function Projects() {
 
   return (
     <main className={ styles.container }>
-      <Aside />
-      <div>
+      <div className="scale-in-hor-left">
         <h1>Projetos</h1>
         <div>
           <button
@@ -84,7 +83,7 @@ function Projects() {
             <GrNext />
           </button>
         </div>
-        <Footer />
+      <Footer />
       </div>
     </main>
   )

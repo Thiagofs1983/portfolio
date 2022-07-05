@@ -26,10 +26,20 @@ html {
   }
 
 :root {
-  --main-color: #f0f0ee;
-  --text-color: #2e2e2e;
+  --main-color: rgba(91, 209, 215, 0.1);
+  --text-color: #767676;;
   --title-color: #181818;
   --button-color: #4fc4cf;
   --button-text: #181818;
+}
+
+.container {
+  display: flex;
+}
+
+@media screen and (max-width: 912px) {
+  .container {
+    flex-direction: column;
+  }
 }
   

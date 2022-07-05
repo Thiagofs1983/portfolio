@@ -2,40 +2,38 @@
   .container {
     display: none;
   }
-  
+    
 }
 
 @media screen and (max-width: 912px) {
   .container {
+    width: 100%;
+  }
+
+  .container nav {
+    margin-top: 10px;
     display: flex;
-    text-align: center;
     justify-content: center;
   }
 
-  .container a {
-    margin: 40px;
-    font-size: 1em;
-    color: var(--text-color);
+  .container nav a {
+    margin: 0 10px;
+    font-size: 2em;
   }
   
-  .container a:hover {
-    text-decoration: none;
+  .container nav a:nth-child(1) {
+    color: #0e76a8;
   }
-
-  .container hr {
-    width: 100%;  
+  
+  .container nav a:nth-child(2) {
+    color: black;
   }
-}
-
-
-@media screen and (max-width: 540px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  
+  .container nav a:nth-child(3) {
+    color: #34af23;
   }
-
-  .container a {
-    margin: 10px 1.5em;
+  
+  .container span {
+    font-size: 1.3rem;
   }
 }

@@ -1,11 +1,9 @@
-import Footer from '../components/Footer';
 import styles from '../styles/Contact.module.css';
-import Aside from '../components/Aside';
+import Footer from '../components/Footer';
 
 function Contact() {
   return (
     <main className={ styles.container }>
-      <Aside />
       <div>
         <h1>Contato</h1>
         <form action="https://formsubmit.co/t.fs.2007@hotmail.com" method="POST">
