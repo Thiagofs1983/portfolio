@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9e94b838.css",
-    "main.js": "/portfolio/static/js/main.135b8724.js",
+    "main.css": "/portfolio/static/css/main.7a9d4e30.css",
+    "main.js": "/portfolio/static/js/main.d1627fb2.js",
     "static/media/familia.png": "/portfolio/static/media/familia.8d3a71139e187c2e4929.png",
     "static/media/Thiago.png": "/portfolio/static/media/Thiago.f5868fbabb01aa5833e1.png",
     "static/media/StarWars.png": "/portfolio/static/media/StarWars.50695f5602673c771429.png",
+    "static/media/app-recipes.png": "/portfolio/static/media/app-recipes.f9f7a0ccdc173fe86844.png",
     "static/media/TrybeWalet.png": "/portfolio/static/media/TrybeWalet.041dd134dacc00de83b4.png",
     "static/media/css.jpg": "/portfolio/static/media/css.ac4c52471f51dc98fd68.jpg",
     "static/media/react.png": "/portfolio/static/media/react.283bf42c605cfc49cf49.png",
@@ -13,11 +14,11 @@
     "static/media/redux.png": "/portfolio/static/media/redux.296b9306ae3e4de348c6.png",
     "static/media/jest.png": "/portfolio/static/media/jest.809768de8350fa5f6a21.png",
     "index.html": "/portfolio/index.html",
-    "main.9e94b838.css.map": "/portfolio/static/css/main.9e94b838.css.map",
-    "main.135b8724.js.map": "/portfolio/static/js/main.135b8724.js.map"
+    "main.7a9d4e30.css.map": "/portfolio/static/css/main.7a9d4e30.css.map",
+    "main.d1627fb2.js.map": "/portfolio/static/js/main.d1627fb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e94b838.css",
-    "static/js/main.135b8724.js"
+    "static/css/main.7a9d4e30.css",
+    "static/js/main.d1627fb2.js"
   ]
 }
