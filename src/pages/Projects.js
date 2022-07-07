@@ -5,6 +5,7 @@ import TrybeWalet from '../images/TrybeWalet.png';
 import StarWars from '../images/StarWars.png';
 import Trivia from '../images/Trivia.png';
 import Footer from '../components/Footer';
+import APPRECIPES from '../images/app-recipes.png';
 import '../styles/homes.css';
 
 function Projects() {
@@ -34,6 +35,15 @@ function Projects() {
     gitHub: "https://github.com/Thiagofs1983/Trivia",
     buttonGitHub: "Repositório GitHub do Projeto",
     deploy: "https://trivia-ivory-omega.vercel.app/",
+    buttonDeploy: "Deploy do Projeto"
+  },
+  {
+    nameProject: "App de Receitas",
+    image: APPRECIPES,
+    alt: "Foto do projeto App de Receitas",
+    gitHub: "https://github.com/Thiagofs1983/app-recipes",
+    buttonGitHub: "Repositório GitHub do Projeto",
+    deploy: "https://app-recipes-flax.vercel.app/",
     buttonDeploy: "Deploy do Projeto"
   }];
 

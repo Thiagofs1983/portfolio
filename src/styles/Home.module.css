@@ -134,7 +134,7 @@
   }
   
   .container p {
-    font-size: 2em;
+    font-size: 1.3em;
     padding: 1.5em;
   }
 
@@ -177,7 +177,6 @@
   }
 
   .container p {
-    font-size: 2em;
     text-align: center;
     padding: 15px 0;
   }
