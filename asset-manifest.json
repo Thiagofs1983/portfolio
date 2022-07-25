@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a9d4e30.css",
-    "main.js": "/portfolio/static/js/main.681659c1.js",
+    "main.css": "/portfolio/static/css/main.4d4625d8.css",
+    "main.js": "/portfolio/static/js/main.4f3848d9.js",
     "static/media/familia.png": "/portfolio/static/media/familia.8d3a71139e187c2e4929.png",
     "static/media/Thiago.png": "/portfolio/static/media/Thiago.f5868fbabb01aa5833e1.png",
     "static/media/StarWars.png": "/portfolio/static/media/StarWars.50695f5602673c771429.png",
@@ -13,13 +13,14 @@
     "static/media/react-router.png": "/portfolio/static/media/react-router.66f9b0327cffc1f939e2.png",
     "static/media/redux.png": "/portfolio/static/media/redux.296b9306ae3e4de348c6.png",
     "static/media/jest.png": "/portfolio/static/media/jest.809768de8350fa5f6a21.png",
-    "static/media/docker.png": "/portfolio/static/media/docker.60d05ca3c06a93859b7e.png",
+    "static/media/docker.svg": "/portfolio/static/media/docker.3253a6fe64f326e90f1716b7069eeeb8.svg",
+    "static/media/mysql.svg": "/portfolio/static/media/mysql.c88570bcc45e4d15aa2b92e17eef91dd.svg",
     "index.html": "/portfolio/index.html",
-    "main.7a9d4e30.css.map": "/portfolio/static/css/main.7a9d4e30.css.map",
-    "main.681659c1.js.map": "/portfolio/static/js/main.681659c1.js.map"
+    "main.4d4625d8.css.map": "/portfolio/static/css/main.4d4625d8.css.map",
+    "main.4f3848d9.js.map": "/portfolio/static/js/main.4f3848d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a9d4e30.css",
-    "static/js/main.681659c1.js"
+    "static/css/main.4d4625d8.css",
+    "static/js/main.4f3848d9.js"
   ]
 }
