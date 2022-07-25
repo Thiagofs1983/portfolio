@@ -8,7 +8,8 @@ import redux from '../images/redux.png';
 import reactRouter from '../images/react-router.png';
 import jest from '../images/jest.png';
 import styledComponent from '../images/styled-components.png';
-import docker from '../images/docker.png';
+import docker from '../images/docker.svg';
+import mysql from '../images/mysql.svg';
 import Footer from '../components/Footer';
 import css from '../images/css.jpg';
 import '../styles/homes.css';
@@ -48,6 +49,7 @@ function About() {
             <img src={redux} alt="Logo Redux" />
             <img src={reactRouter} alt="Logo React Router" />
             <img src={docker} alt="Logo Docker" />
+            <img src={mysql} alt="Logo Mysql" />
             <img src={jest} alt="Logo Jest" />
             <img src={styledComponent} alt="Logo Styled Components" />
             <img src={css} alt="Logo CSS" />
